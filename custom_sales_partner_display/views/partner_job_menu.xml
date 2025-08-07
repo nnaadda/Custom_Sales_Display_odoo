@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <!-- Add menu item to Sales app under Orders section -->
+        <menuitem 
+            id="menu_customer_job_positions"
+            name="Customer Jobs"
+            parent="sale.sale_order_menu"
+            action="action_partner_job_positions"
+            sequence="15"
+            groups="sales_team.group_sale_salesman"/>
+            
+    </data>
+</odoo>
